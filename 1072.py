@@ -22,6 +22,6 @@ def Find(X, Y):
     
     return result
 
-for line in sys.stdin:
-    X, Y = map(int, line.split())
-    print(Find(X, Y))
+
+X, Y = map(int, input().split())
+print(Find(X, Y))
